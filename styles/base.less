@@ -196,8 +196,9 @@ atom-text-editor .search-results .marker.current-result .region,
     &.tag{
       color: @light-orange;
 
-
-
+      &.extend {
+        color: @light-blue-darken;
+      }
     }
   }
 
@@ -243,6 +244,11 @@ atom-text-editor .search-results .marker.current-result .region,
 
   &.name.tag {
     color: @light-orange;
+    // text-decoration: underline;
+  }
+
+  &.name.tag.extend {
+    color: @light-blue-darken;
     // text-decoration: underline;
   }
 
