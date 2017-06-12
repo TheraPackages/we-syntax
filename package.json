@@ -1,7 +1,7 @@
 {
   "name": "we-syntax",
   "theme": "syntax",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Syntax for WEEX file powered by Thera",
   "keywords": [
     "syntax",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/TheraPackages/we-syntax.git"
   },
   "license": "MIT"
 }
